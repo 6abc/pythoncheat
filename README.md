@@ -65,13 +65,13 @@ type('Hellloooooo') # str
 "\t" # adds a tab
 
 'Hey you!'[4] # y
-name = 'Andrei Neagoie'
+name = 'Ashish Thakur'
 name[4]     # e
-name[:]     # Andrei Neagoie
-name[1:]    # ndrei Neagoie
+name[:]     # Ashish Thakur
+name[1:]    # ndrei Thakur
 name[:1]    # A
 name[-1]    # e
-name[::1]   # Andrei Neagoie
+name[::1]   # Ashish Thakur
 name[::-1]  # eiogaeN ierdnA
 name[0:10:2]# Ade e
 # : is called slicing and has the format [ start : end : step ]
@@ -103,11 +103,11 @@ len('turtle') # 6
 
 ```python
 # String Formatting
-name1 = 'Andrei'
+name1 = 'Ashish'
 name2 = 'Sunny'
-print(f'Hello there {name1} and {name2}')       # Hello there Andrei and Sunny - Newer way to do things as of python 3.6
-print('Hello there {} and {}'.format(name1, name2))# Hello there Andrei and Sunny
-print('Hello there %s and %s' %(name1, name2))  # Hello there Andrei and Sunny --> you can also use %d, %f, %r for integers, floats, string representations of objects respectively
+print(f'Hello there {name1} and {name2}')       # Hello there Ashish and Sunny - Newer way to do things as of python 3.6
+print('Hello there {} and {}'.format(name1, name2))# Hello there Ashish and Sunny
+print('Hello there %s and %s' %(name1, name2))  # Hello there Ashish and Sunny --> you can also use %d, %f, %r for integers, floats, string representations of objects respectively
 ```
 
 ```python
@@ -262,13 +262,13 @@ Dictionaries
 ----------
 **Also known as mappings or hash tables. They are key value pairs that are guaranteed to retain order of insertion starting from Python 3.7**
 ```python
-my_dict = {'name': 'Andrei Neagoie', 'age': 30, 'magic_power': False}
-my_dict['name']                      # Andrei Neagoie
+my_dict = {'name': 'Ashish Thakur', 'age': 30, 'magic_power': False}
+my_dict['name']                      # Ashish Thakur
 len(my_dict)                         # 3
 list(my_dict.keys())                 # ['name', 'age', 'magic_power']
-list(my_dict.values())               # ['Andrei Neagoie', 30, False]
-list(my_dict.items())                # [('name', 'Andrei Neagoie'), ('age', 30), ('magic_power', False)]
-my_dict['favourite_snack'] = 'Grapes'# {'name': 'Andrei Neagoie', 'age': 30, 'magic_power': False, 'favourite_snack': 'Grapes'}
+list(my_dict.values())               # ['Ashish Thakur', 30, False]
+list(my_dict.items())                # [('name', 'Ashish Thakur'), ('age', 30), ('magic_power', False)]
+my_dict['favourite_snack'] = 'Grapes'# {'name': 'Ashish Thakur', 'age': 30, 'magic_power': False, 'favourite_snack': 'Grapes'}
 my_dict.get('age')                   # 30 --> Returns None if key does not exist.
 my_dict.get('ages', 0 )              # 0 --> Returns default (2nd param) if key is not found
 
@@ -278,16 +278,16 @@ my_dict.pop('name', None)
 ```
 
 ```python
-my_dict.update({'cool': True})                                         # {'name': 'Andrei Neagoie', 'age': 30, 'magic_power': False, 'favourite_snack': 'Grapes', 'cool': True}
-{**my_dict, **{'cool': True} }                                         # {'name': 'Andrei Neagoie', 'age': 30, 'magic_power': False, 'favourite_snack': 'Grapes', 'cool': True}
-new_dict = dict([['name','Andrei'],['age',32],['magic_power',False]])  # Creates a dict from collection of key-value pairs.
-new_dict = dict(zip(['name','age','magic_power'],['Andrei',32, False]))# Creates a dict from two collections.
+my_dict.update({'cool': True})                                         # {'name': 'Ashish Thakur', 'age': 30, 'magic_power': False, 'favourite_snack': 'Grapes', 'cool': True}
+{**my_dict, **{'cool': True} }                                         # {'name': 'Ashish Thakur', 'age': 30, 'magic_power': False, 'favourite_snack': 'Grapes', 'cool': True}
+new_dict = dict([['name','Ashish'],['age',32],['magic_power',False]])  # Creates a dict from collection of key-value pairs.
+new_dict = dict(zip(['name','age','magic_power'],['Ashish',32, False]))# Creates a dict from two collections.
 new_dict = my_dict.pop('favourite_snack')                              # Removes item from dictionary.
 ```
 
 ```python
 # Dictionary Comprehension
-{key: value for key, value in new_dict.items() if key == 'age' or key == 'name'} # {'name': 'Andrei', 'age': 32} --> Filter dict by keys
+{key: value for key, value in new_dict.items() if key == 'age' or key == 'name'} # {'name': 'Ashish', 'age': 32} --> Filter dict by keys
 ```
 
 Tuples
