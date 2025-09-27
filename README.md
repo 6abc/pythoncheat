@@ -1,7 +1,5 @@
-Python ZTM Cheatsheet 💻🚀
+Python Cheatsheet 💻🚀
 ===============================
-
-We created this Python Cheat Sheet initially for students of [Complete Python Developer: Zero to Mastery](https://zerotomastery.io/courses/learn-python/) but we're now sharing it with any Python beginners to help them learn and remember common Python syntax and with intermediate and advanced Python developers as a handy reference. If you'd like to download a PDF version of this Python Cheat Sheet, you can get it [here](https://zerotomastery.io/courses/python/cheatsheet/?utm_source=github&utm_medium=ztm-python-cheat-sheet)!
 
 Contents
 --------
